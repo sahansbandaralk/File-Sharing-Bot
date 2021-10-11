@@ -1,4 +1,4 @@
-#(©)Codexbotz
+#(©)SECLK
 
 import asyncio
 from pyrogram import Client, filters, __version__
@@ -73,7 +73,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
+                    InlineKeyboardButton("😊 About Us", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
